@@ -1,0 +1,54 @@
+/*********************************
+        Main Content
+    ***********************************/
+    
+    .rc_section{
+        display:inline-block;
+        width: 100%;
+        position: relative;
+        margin: 0;
+        background-size:cover;
+        background-position: center;
+        padding: 57px 0;
+        text-align: center;
+
+        .rc_row{
+            display: inline-block;
+            width: 82%;
+            max-width: 1360px;
+            margin: 0 auto;
+            padding: 27px 0;
+     
+        }
+
+        .rc_row.rc_equal_columns{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            direction: ltr;
+        }
+
+    }
+
+    .section-banner{
+        padding: 14em 0 14em 0;
+
+        h1{
+            color:#fff;
+            margin-bottom: 30px;
+        }
+        p{
+            color: #fff;
+            font-size: 20px;
+            line-height: 1.7em;
+        }
+    }
+    
+    .section-with-bg{
+        background-color: rgba(43, 92, 106, 0.98);
+        background-blend-mode: multiply;
+    }
+
+    #rc-footer-bottom{
+        text-align: center;
+    }

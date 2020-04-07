@@ -1,0 +1,238 @@
+/******************************************
+//    GLOBAL IMPORTS
+******************************************/
+/******************************************
+    BASE IMPORTS
+******************************************/
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap");
+body {
+  background-color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  line-height: 1.7em;
+  font-size: 18px;
+  margin: 0 auto;
+  color: #000;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-weight: bold;
+  line-height: 1.3em;
+  margin: 0 0 15px;
+}
+
+body p {
+  margin: 0 0 30px;
+}
+
+body h1 {
+  font-size: 45px;
+}
+
+body h2 {
+  font-size: 36px;
+}
+
+body h3 {
+  font-size: 30px;
+}
+
+body h4 {
+  font-size: 25px;
+}
+
+body h5 {
+  font-size: 22px;
+}
+
+body h6 {
+  font-size: 18px;
+}
+
+body .align-center {
+  text-align: center;
+}
+
+body .align-left {
+  text-align: left;
+}
+
+body .align-right {
+  text-align: right;
+}
+
+body .color-white {
+  color: #fff;
+}
+
+body .rc-container {
+  display: inline-block;
+  width: 82%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+/******************************************
+    COMPONENTS IMPORTS
+******************************************/
+/******************************************
+    LAYOUT IMPORTS
+******************************************/
+/*********************************
+        Header
+    ***********************************/
+header.rc-main-header {
+  text-align: center;
+}
+
+header.rc-main-header ul {
+  padding: 0;
+}
+
+header.rc-main-header ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 30px;
+  vertical-align: super;
+}
+
+header.rc-main-header ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.rc_column {
+  float: left;
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.rc_column .rc_inner_content .rc-blog-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.rc_column .rc_inner_content .rc-blog-container article.column_6 {
+  padding: 3%;
+  width: calc(82%/3);
+}
+
+.rc_column .rc_inner_content .rc-blog-container article.column_6 img {
+  border-radius: 10px;
+}
+
+.rc_column .rc_inner_content .rc_blurb_image {
+  margin-bottom: 30px;
+}
+
+.rc_column .rc_inner_content .rc_blurb_image img {
+  border-radius: 10px;
+}
+
+.rc_column .rc_inner_content button {
+  background: transparent;
+  color: #fff;
+  padding: 1em 4em;
+  border: 1px solid #fff;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+.rc_column .rc_inner_content img {
+  width: 100%;
+}
+
+.rc_column .custom-width-980 {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.last_child {
+  margin-right: 0 !important;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.column_2 {
+  width: 47.25%;
+  margin-right: 5.5%;
+}
+
+.column_3 {
+  width: 29.667%;
+  margin-right: 5.5%;
+}
+
+.column_2_half.first {
+  width: 36.25%;
+  margin-right: 5.5%;
+}
+
+.column_2_half.last_child {
+  width: 58.25%;
+}
+
+/*********************************
+        Main Content
+    ***********************************/
+.rc_section {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  padding: 57px 0;
+  text-align: center;
+}
+
+.rc_section .rc_row {
+  display: inline-block;
+  width: 82%;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 27px 0;
+}
+
+.rc_section .rc_row.rc_equal_columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  direction: ltr;
+}
+
+.section-banner {
+  padding: 14em 0 14em 0;
+}
+
+.section-banner h1 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.section-banner p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.7em;
+}
+
+.section-with-bg {
+  background-color: rgba(43, 92, 106, 0.98);
+  background-blend-mode: multiply;
+}
+
+#rc-footer-bottom {
+  text-align: center;
+}
+/*# sourceMappingURL=application.css.map */
